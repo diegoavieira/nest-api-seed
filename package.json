@@ -1,6 +1,6 @@
 {
   "name": "nest-api-seed",
-  "version": "0.0.1",
+  "version": "0.0.0-lerna",
   "description": "Nest API Seed",
   "author": "Diego Adilson Vieira <diegoavieira@gmail.com>",
   "private": true,
@@ -19,7 +19,8 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "version": "lerna version --force-publish"
   },
   "dependencies": {
     "@nestjs/common": "^7.0.0",
@@ -47,6 +48,7 @@
     "eslint-plugin-import": "^2.20.1",
     "husky": "^4.2.5",
     "jest": "26.0.1",
+    "lerna": "^3.20.2",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
     "supertest": "^4.0.2",
