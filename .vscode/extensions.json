@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "christian-kohler.path-intellisense"
+  ]
+}
